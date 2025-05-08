@@ -1,0 +1,16 @@
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\module-info.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\dao\AutorDAO.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\dao\LibroDAO.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\dao\PrestamosDAO.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\dao\SocioDAO.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\entities\Autor.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\entities\Libro.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\entities\Prestamo.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\entities\Socio.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\MainApp.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\util\HibernateUtil.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\view\controller\AutoresController.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\view\controller\LibrosController.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\view\controller\MainViewController.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\view\controller\PrestamosController.java
+C:\Users\HP\Desktop\BibliotecaFX\src\main\java\org\example\bibliotecafx\view\controller\SociosController.java

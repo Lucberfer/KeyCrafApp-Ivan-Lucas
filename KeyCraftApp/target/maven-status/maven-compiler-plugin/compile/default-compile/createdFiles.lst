@@ -1,0 +1,16 @@
+org\example\bibliotecafx\view\controller\LibrosController.class
+org\example\bibliotecafx\util\HibernateUtil.class
+org\example\bibliotecafx\entities\Socio.class
+module-info.class
+org\example\bibliotecafx\view\controller\AutoresController.class
+org\example\bibliotecafx\entities\Prestamo.class
+org\example\bibliotecafx\entities\Libro.class
+org\example\bibliotecafx\dao\SocioDAO.class
+org\example\bibliotecafx\view\controller\PrestamosController.class
+org\example\bibliotecafx\MainApp.class
+org\example\bibliotecafx\dao\AutorDAO.class
+org\example\bibliotecafx\dao\PrestamosDAO.class
+org\example\bibliotecafx\view\controller\MainViewController.class
+org\example\bibliotecafx\dao\LibroDAO.class
+org\example\bibliotecafx\view\controller\SociosController.class
+org\example\bibliotecafx\entities\Autor.class
