@@ -1,0 +1,4 @@
+package org.example.keycrafapp.view.controller;
+
+public class MainCatalogoViewController {
+}

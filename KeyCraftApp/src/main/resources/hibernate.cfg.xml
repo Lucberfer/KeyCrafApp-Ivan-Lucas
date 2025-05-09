@@ -1,30 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-
-        <!-- Database connection configuration -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <!-- Ensure that the 'biblioteca' database exists on your MySQL server -->
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/biblioteca</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/keycraft</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password"></property>
-
-        <!-- MySQL dialect for Hibernate (adjust based on MySQL version) -->
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
-
-        <!-- Schema generation strategy -->
-        <property name="hibernate.hbm2ddl.auto">update
-        </property> <!-- Options: update, create, create-drop, validate, none -->
-        <property name="show_sql">true</property> <!-- Show SQL queries in console for debugging -->
-
-        <!-- Entity mappings (order matters: referenced tables should be mapped first) -->
-        <mapping class="org.example.bibliotecafx.entities.Autor"/> <!-- Maps the 'Autor' entity -->
-        <mapping class="org.example.bibliotecafx.entities.Libro"/> <!-- Maps the 'Libro' entity -->
-        <mapping class="org.example.bibliotecafx.entities.Socio"/> <!-- Maps the 'Socio' entity -->
-        <mapping class="org.example.bibliotecafx.entities.Prestamo"/> <!-- Maps the 'Prestamo' entity -->
-
+<!--        <property name="hibernate.connection.password"></property>-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping class="org.example.keycrafapp.entities.User"/>
     </session-factory>
 </hibernate-configuration>
+
+
+        <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+
+<!--        &lt;!&ndash; Database connection configuration &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
+<!--        &lt;!&ndash; Ensure that the 'biblioteca' database exists on your MySQL server &ndash;&gt;-->
+<!--        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/keycraft</property>-->
+<!--        <property name="hibernate.connection.username">root</property>-->
+<!--&lt;!&ndash;        <property name="hibernate.connection.password"></property>&ndash;&gt;-->
+
+<!--        &lt;!&ndash; MySQL dialect for Hibernate (adjust based on MySQL version) &ndash;&gt;-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>-->
+
+<!--        &lt;!&ndash; Schema generation strategy &ndash;&gt;-->
+<!--        <property name="hibernate.hbm2ddl.auto">update-->
+<!--        </property> &lt;!&ndash; Options: update, create, create-drop, validate, none &ndash;&gt;-->
+<!--        <property name="show_sql">true</property> &lt;!&ndash; Show SQL queries in console for debugging &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Entity mappings (order matters: referenced tables should be mapped first) &ndash;&gt;-->
+<!--        <mapping class="org.example.keycrafapp.entities.User"/> &lt;!&ndash; Maps the 'User' entity &ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Component"/> &lt;!&ndash; Maps the 'Component' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Type"/> &lt;!&ndash; Maps the 'Socio' Type &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Casing"/> &lt;!&ndash; Maps the 'Casing' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Keycaps"/> &lt;!&ndash; Maps the 'Keycaps' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.PCB"/> &lt;!&ndash; Maps the 'PCB' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Plate"/> &lt;!&ndash; Maps the 'Plate' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Switch"/> &lt;!&ndash; Maps the 'Switch' entity &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="org.example.keycraftapp.entities.Payment"/> &lt;!&ndash; Maps the 'Payment' entity &ndash;&gt;&ndash;&gt;-->
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
